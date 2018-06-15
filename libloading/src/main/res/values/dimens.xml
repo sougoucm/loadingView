@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="lib_0dp">0dp</dimen>
+
+    <!-- TitleBar -->
+    <dimen name="lib_titleBar_height">48dp</dimen>
+    <dimen name="lib_titleBar_back_btn_width">34dp</dimen>
+
+    <!-- BottomBar -->
+    <dimen name="lib_bottomBar_height">54dp</dimen>
+
+    <!-- 字体 -->
+    <dimen name="lib_font_60pt_20sp">20sp</dimen>
+    <dimen name="lib_font_55pt_18sp">18sp</dimen>
+    <dimen name="lib_font_50pt_16sp">16sp</dimen>
+    <dimen name="lib_font_40pt_14sp">14sp</dimen>
+    <dimen name="lib_font_35pt_12sp">12sp</dimen>
+    <dimen name="lib_font_20pt_7sp">7sp</dimen>
+
+    <!-- DialogView -->
+    <dimen name="lib_dialog_margin_window">15dp</dimen>
+    <dimen name="lib_dialog_title_height">40dp</dimen>
+    <dimen name="lib_dialog_padding">7dp</dimen>
+    <dimen name="lib_dialog_content_height">85dp</dimen>
+
+    <!-- LoadingDialog -->
+    <dimen name="lib_Loading_dialog_height">100dp</dimen>
+    <dimen name="lib_Loading_dialog_width">135dp</dimen>
+    <dimen name="lib_Loading_dialog_padding">20dp</dimen>
+    <dimen name="lib_Loading_dialog_progressbar_sides">40dp</dimen>
+    <dimen name="lib_Loading_dialog_margin">5dp</dimen>
+    
+</resources>

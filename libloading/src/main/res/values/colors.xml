@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- 通用颜色 -->
+    <color name="libloading_transparent">#00000000</color>
+    <color name="libloading_white">#ffffff</color>
+
+
+</resources>

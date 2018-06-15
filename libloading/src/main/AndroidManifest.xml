@@ -1,0 +1,12 @@
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xiaodao.libloading">
+
+<application
+    android:allowBackup="false"
+    android:supportsRtl="true"
+>
+
+</application>
+
+</manifest>
+

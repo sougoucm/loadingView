@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/lib_Loading_dialog_width"
+    android:layout_height="@dimen/lib_Loading_dialog_height"
+    android:layout_gravity="center"
+    android:background="@drawable/lib_border_loading"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/lib_Loading_dialog_padding" >
+
+    <ProgressBar
+        android:id="@+id/libui_loading_progress"
+        style="?android:progressBarStyleSmall"
+        android:layout_width="@dimen/lib_Loading_dialog_progressbar_sides"
+        android:layout_height="@dimen/lib_Loading_dialog_progressbar_sides"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:indeterminateDrawable="@drawable/lib_progress_bar_drawable" />
+
+    <TextView
+        android:id="@+id/libui_loading_msg"
+        android:layout_marginTop="@dimen/lib_Loading_dialog_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/lib_loading"
+        android:textColor="@color/libloading_white"
+        android:visibility="gone"
+        android:textSize="14sp" />
+
+</LinearLayout>

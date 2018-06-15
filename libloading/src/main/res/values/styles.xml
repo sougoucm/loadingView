@@ -1,0 +1,21 @@
+<resources>
+
+
+
+    <!-- 加载中 -->
+    <style name="dialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 除去title -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/libloading_transparent</item>
+        <!-- 除去背景色 -->
+    </style>
+
+
+
+
+</resources>
